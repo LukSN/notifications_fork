@@ -60,7 +60,7 @@ public class LocalNotificationsService extends IntentService {
                     System.out.println("QueryVocabs: " + preferences.getString("flutter.queryvocabs", "[]"));
                     System.out.println("QueryTimes: " + preferences.getLong("flutter.querytimes", 0));
 
-                    System.out.println("Prefs: " + preferences.getBoolean("flutter.afterterminate", false));
+                    System.out.println("Prefssssss: " + preferences.getBoolean("flutter.afterterminate", false));
 
                     //sendNotification();
 
